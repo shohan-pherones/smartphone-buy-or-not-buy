@@ -14,3 +14,13 @@ var realmeRel = realmePrice / realmeLooks;
 console.log('Samsung' + ' ' + '=' + ' ' + samsungRel);
 console.log('Xiaomi' + ' ' + '=' + ' ' + xiaomiRel);
 console.log('Realme' + ' ' + '=' + ' ' + realmeRel);
+//conditions
+if (samsungRel > xiaomiRel){
+    console.log('Samsung');
+}
+else if (xiaomiRel > realmeRel){
+    console.log('Xiaomi');
+}
+else{
+    console.log('Realme');
+}
